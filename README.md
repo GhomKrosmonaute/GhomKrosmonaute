@@ -1,16 +1,13 @@
-### Hi there 👋
+# Hi, I'm Ghom!
 
-<!--
-**CamilleAbella/CamilleAbella** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My real name is ABELLA Camille, I'm a French web developper.
 
-Here are some ideas to get you started:
+## Some links
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- My portfolio: https://CamilleAbella.github.io
+- My Discord server (JavaScript comunity): https://discord.gg/3vC2XWK
+
+## Some statistics
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CamilleAbella)](https://github.com/anuraghazra/github-readme-stats)
+[![Ghom's github stats](https://github-readme-stats.vercel.app/api?username=CamilleAbella&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
