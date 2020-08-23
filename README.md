@@ -9,5 +9,5 @@ My real name is ABELLA Camille, I'm a French web developper.
 
 ## Some statistics
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CamilleAbella)](https://github.com/anuraghazra/github-readme-stats)
-[![Ghom's github stats](https://github-readme-stats.vercel.app/api?username=CamilleAbella&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CamilleAbella)
+![Ghom's github stats](https://github-readme-stats.vercel.app/api?username=CamilleAbella&show_icons=true&line_height=40)
