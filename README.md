@@ -5,6 +5,7 @@
 My real name is ABELLA Camille, I'm a French web developper.
 
 - [My portfolio](https://CamilleAbella.github.io)
+- [My old portfolio](https://camilleabella.github.io/old-portfolio/)
 - [My Discord server](https://discord.gg/3vC2XWK) (JavaScript comunity)
 
 ## About GitHub
