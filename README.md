@@ -6,7 +6,8 @@ My real name is ABELLA Camille, I'm a French web developper.
 
 - [My portfolio](https://ghomkrosmonaute.github.io)
 - [My old portfolio](https://ghomkrosmonaute.github.io/old-portfolio/)
-- [My Discord server](https://discord.gg/3vC2XWK) (JavaScript comunity)
+- [Discord server](https://discord.gg/kYxDWWQJ8q) (NEWS about my tools)
+- [Discord server](https://discord.gg/3vC2XWK) (JavaScript comunity)
 
 ## About GitHub
 
