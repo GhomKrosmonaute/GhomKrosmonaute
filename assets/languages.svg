@@ -28,22 +28,22 @@
   <text x="20" y="30" class="title">LOADOUT</text>
   <text x="398" y="30" class="code" text-anchor="end">SYS.LANGS</text>
   <rect x="20" y="40" width="380" height="1" fill="#1b1d2b"/>
-  <g class="grow"><rect x="20.00" y="58" width="180.07" height="8" fill="#f1e05a"/><rect x="202.07" y="58" width="126.88" height="8" fill="#3178c6"/><rect x="330.95" y="58" width="61.98" height="8" fill="#e34c26"/><rect x="394.93" y="58" width="1.00" height="8" fill="#663399"/><rect x="397.70" y="58" width="1.00" height="8" fill="#7355dd"/><rect x="398.96" y="58" width="1.00" height="8" fill="#fcb32c"/></g>
+  <g class="grow"><rect x="20.00" y="58" width="180.21" height="8" fill="#f1e05a"/><rect x="202.21" y="58" width="126.79" height="8" fill="#3178c6"/><rect x="331.00" y="58" width="61.93" height="8" fill="#e34c26"/><rect x="394.93" y="58" width="1.00" height="8" fill="#663399"/><rect x="397.70" y="58" width="1.00" height="8" fill="#7355dd"/><rect x="398.96" y="58" width="1.00" height="8" fill="#fcb32c"/></g>
   <rect x="20" y="83" width="8" height="8" fill="#f1e05a"/>
   <text x="36" y="92" class="label" style="fill:#e6f6ff">JavaScript</text>
-  <text x="196" y="92" class="label" text-anchor="end">47.9%</text>
+  <text x="196" y="92" class="label" text-anchor="end">48.0%</text>
   <rect x="20" y="101" width="176" height="3" fill="#1b1d2b"/>
-  <rect x="20" y="101" width="84.33" height="3" fill="#f1e05a" class="grow"/>
+  <rect x="20" y="101" width="84.39" height="3" fill="#f1e05a" class="grow"/>
   <rect x="216" y="83" width="8" height="8" fill="#3178c6"/>
   <text x="232" y="92" class="label" style="fill:#e6f6ff">TypeScript</text>
   <text x="392" y="92" class="label" text-anchor="end">33.9%</text>
   <rect x="216" y="101" width="176" height="3" fill="#1b1d2b"/>
-  <rect x="216" y="101" width="59.69" height="3" fill="#3178c6" class="grow"/>
+  <rect x="216" y="101" width="59.65" height="3" fill="#3178c6" class="grow"/>
   <rect x="20" y="127" width="8" height="8" fill="#e34c26"/>
   <text x="36" y="136" class="label" style="fill:#e6f6ff">HTML</text>
   <text x="196" y="136" class="label" text-anchor="end">16.8%</text>
   <rect x="20" y="145" width="176" height="3" fill="#1b1d2b"/>
-  <rect x="20" y="145" width="29.63" height="3" fill="#e34c26" class="grow"/>
+  <rect x="20" y="145" width="29.61" height="3" fill="#e34c26" class="grow"/>
   <rect x="216" y="127" width="8" height="8" fill="#663399"/>
   <text x="232" y="136" class="label" style="fill:#e6f6ff">CSS</text>
   <text x="392" y="136" class="label" text-anchor="end">0.7%</text>
