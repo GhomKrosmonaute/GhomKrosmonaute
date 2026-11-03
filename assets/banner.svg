@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="GHOM — Full-stack &amp; game developer">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#1b1d2b" stroke-width="1" opacity=".7"/>
+    </pattern>
+    <radialGradient id="halo" cx="0.3" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity=".16"/>
+      <stop offset=".55" stop-color="#ff2bd6" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#050508" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00f0ff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="shape"><path d="M0 0H1170L1200 30V300H30L0 270Z"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    .scan { animation: scan 5s linear infinite; }
+    @keyframes scan { from { transform: translateY(-80px); } to { transform: translateY(320px); } }
+    .blink { animation: blink 1.2s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: .15; } }
+    .flicker { animation: flicker 7s infinite; }
+    @keyframes flicker { 0%,93%,95%,100% { opacity: 1; } 94% { opacity: .55; } }
+    .beam { stroke-dasharray: 6 14; animation: dash 3s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -40; } }
+  </style>
+
+  <g clip-path="url(#shape)">
+    <rect width="1200" height="300" fill="#050508"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <rect width="1200" height="300" fill="url(#halo)"/>
+    <!-- perspective beams, like the hub's backdrop -->
+    <g stroke-width="1.5" fill="none" opacity=".55">
+      <path class="beam" d="M720 300L1200 40" stroke="#00f0ff"/>
+      <path class="beam" d="M820 300L1200 110" stroke="#ff2bd6"/>
+      <path class="beam" d="M940 300L1200 180" stroke="#00f0ff"/>
+      <path d="M760 0L1200 230" stroke="#1b1d2b"/>
+    </g>
+    <rect class="scan" x="0" y="0" width="1200" height="80" fill="url(#scan)"/>
+  </g>
+  <path d="M0.5 0.5H1170L1199.5 30V299.5H30L0.5 270Z" fill="none" stroke="url(#title)" stroke-opacity=".75"/>
+
+  <!-- HUD corners -->
+  <g stroke="#00f0ff" stroke-width="2" fill="none">
+    <path d="M24 44V24H44"/>
+    <path d="M1176 256V276H1156"/>
+  </g>
+
+  <text x="64" y="66" fill="#ff2bd6" font-size="14" letter-spacing="4">EXO-7 · MK.II</text>
+  <g transform="translate(1136 62)">
+    <circle class="blink" cx="-128" cy="-5" r="5" fill="#e8ff3a"/>
+    <text x="0" y="0" fill="#e8ff3a" font-size="14" letter-spacing="3" text-anchor="end">SYS.ONLINE</text>
+  </g>
+
+  <text class="flicker" x="60" y="178" font-size="112" font-weight="800" letter-spacing="10" fill="url(#title)" filter="url(#glow)">GHOM</text>
+  <text x="66" y="218" fill="#e6f6ff" font-size="22" letter-spacing="6">FULL-STACK &amp; GAME DEVELOPER</text>
+  <rect x="66" y="236" width="56" height="3" fill="#00f0ff"/>
+  <text x="138" y="242" fill="#7d8aa3" font-size="15" letter-spacing="2">ghom.fr  ·  No Brain No Game  ·  France</text>
+</svg>

@@ -1,0 +1,35 @@
+name: Profile stats
+
+# Redraws assets/stats.svg and assets/languages.svg every day, so the README
+# depends on no third-party stats service.
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: [scripts/stats.mjs, .github/workflows/stats.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/stats.mjs
+        env:
+          # Optional STATS_TOKEN (a PAT) also counts private contributions.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git diff --quiet -- assets && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/languages.svg
+          git commit -m "Refresh profile stats"
+          git push

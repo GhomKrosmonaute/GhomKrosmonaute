@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="240" viewBox="0 0 420 240" role="img" aria-label="LOADOUT">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1b1d2b" stroke-width="1" opacity=".55"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <clipPath id="shape"><path d="M0 0H406L420 14V240H14L0 226Z"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    .label { fill: #7d8aa3; font-size: 11px; letter-spacing: 1.6px; text-transform: uppercase; }
+    .value { fill: #e6f6ff; font-size: 22px; font-weight: 700; }
+    .title { fill: #00f0ff; font-size: 12px; letter-spacing: 3px; font-weight: 700; }
+    .code { fill: #ff2bd6; font-size: 11px; letter-spacing: 2px; }
+    .grow { animation: grow 1.1s cubic-bezier(.2,.8,.2,1) both; transform-box: fill-box; transform-origin: left; }
+    @keyframes grow { from { transform: scaleX(0); } }
+    .blink { animation: blink 1.4s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <g clip-path="url(#shape)">
+    <rect width="420" height="240" fill="#050508"/>
+    <rect width="420" height="240" fill="url(#grid)"/>
+  </g>
+  <path d="M0.5 0.5H406L419.5 14V239.5H14L0.5 226Z" fill="none" stroke="url(#edge)" stroke-opacity=".7"/>
+  <text x="20" y="30" class="title">LOADOUT</text>
+  <text x="398" y="30" class="code" text-anchor="end">SYS.LANGS</text>
+  <rect x="20" y="40" width="380" height="1" fill="#1b1d2b"/>
+  <g class="grow"><rect x="20.00" y="58" width="180.07" height="8" fill="#f1e05a"/><rect x="202.07" y="58" width="126.88" height="8" fill="#3178c6"/><rect x="330.95" y="58" width="61.98" height="8" fill="#e34c26"/><rect x="394.93" y="58" width="1.00" height="8" fill="#663399"/><rect x="397.70" y="58" width="1.00" height="8" fill="#7355dd"/><rect x="398.96" y="58" width="1.00" height="8" fill="#fcb32c"/></g>
+  <rect x="20" y="83" width="8" height="8" fill="#f1e05a"/>
+  <text x="36" y="92" class="label" style="fill:#e6f6ff">JavaScript</text>
+  <text x="196" y="92" class="label" text-anchor="end">47.9%</text>
+  <rect x="20" y="101" width="176" height="3" fill="#1b1d2b"/>
+  <rect x="20" y="101" width="84.33" height="3" fill="#f1e05a" class="grow"/>
+  <rect x="216" y="83" width="8" height="8" fill="#3178c6"/>
+  <text x="232" y="92" class="label" style="fill:#e6f6ff">TypeScript</text>
+  <text x="392" y="92" class="label" text-anchor="end">33.9%</text>
+  <rect x="216" y="101" width="176" height="3" fill="#1b1d2b"/>
+  <rect x="216" y="101" width="59.69" height="3" fill="#3178c6" class="grow"/>
+  <rect x="20" y="127" width="8" height="8" fill="#e34c26"/>
+  <text x="36" y="136" class="label" style="fill:#e6f6ff">HTML</text>
+  <text x="196" y="136" class="label" text-anchor="end">16.8%</text>
+  <rect x="20" y="145" width="176" height="3" fill="#1b1d2b"/>
+  <rect x="20" y="145" width="29.63" height="3" fill="#e34c26" class="grow"/>
+  <rect x="216" y="127" width="8" height="8" fill="#663399"/>
+  <text x="232" y="136" class="label" style="fill:#e6f6ff">CSS</text>
+  <text x="392" y="136" class="label" text-anchor="end">0.7%</text>
+  <rect x="216" y="145" width="176" height="3" fill="#1b1d2b"/>
+  <rect x="216" y="145" width="1.28" height="3" fill="#663399" class="grow"/>
+  <rect x="20" y="171" width="8" height="8" fill="#7355dd"/>
+  <text x="36" y="180" class="label" style="fill:#e6f6ff">C#</text>
+  <text x="196" y="180" class="label" text-anchor="end">0.3%</text>
+  <rect x="20" y="189" width="176" height="3" fill="#1b1d2b"/>
+  <rect x="20" y="189" width="0.58" height="3" fill="#7355dd" class="grow"/>
+  <rect x="216" y="171" width="8" height="8" fill="#fcb32c"/>
+  <text x="232" y="180" class="label" style="fill:#e6f6ff">MDX</text>
+  <text x="392" y="180" class="label" text-anchor="end">0.3%</text>
+  <rect x="216" y="189" width="176" height="3" fill="#1b1d2b"/>
+  <rect x="216" y="189" width="0.48" height="3" fill="#fcb32c" class="grow"/>
+  <text x="20" y="226" class="label">By code size · public repos</text>
+</svg>
