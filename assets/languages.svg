@@ -28,27 +28,27 @@
   <text x="20" y="30" class="title">LOADOUT</text>
   <text x="398" y="30" class="code" text-anchor="end">SYS.LANGS</text>
   <rect x="20" y="40" width="380" height="1" fill="#1b1d2b"/>
-  <g class="grow"><rect x="20.00" y="58" width="178.49" height="8" fill="#f1e05a"/><rect x="200.49" y="58" width="125.58" height="8" fill="#3178c6"/><rect x="328.06" y="58" width="64.92" height="8" fill="#e34c26"/><rect x="394.98" y="58" width="1.00" height="8" fill="#663399"/><rect x="397.72" y="58" width="1.00" height="8" fill="#7355dd"/><rect x="398.97" y="58" width="1.00" height="8" fill="#fcb32c"/></g>
+  <g class="grow"><rect x="20.00" y="58" width="178.03" height="8" fill="#f1e05a"/><rect x="200.03" y="58" width="124.84" height="8" fill="#3178c6"/><rect x="326.87" y="58" width="66.13" height="8" fill="#e34c26"/><rect x="395.01" y="58" width="1.00" height="8" fill="#663399"/><rect x="397.74" y="58" width="1.00" height="8" fill="#7355dd"/><rect x="398.98" y="58" width="1.00" height="8" fill="#fcb32c"/></g>
   <rect x="20" y="83" width="8" height="8" fill="#f1e05a"/>
   <text x="36" y="92" class="label" style="fill:#e6f6ff">JavaScript</text>
-  <text x="196" y="92" class="label" text-anchor="end">47.5%</text>
+  <text x="196" y="92" class="label" text-anchor="end">47.4%</text>
   <rect x="20" y="101" width="176" height="3" fill="#1b1d2b"/>
-  <rect x="20" y="101" width="83.59" height="3" fill="#f1e05a" class="grow"/>
+  <rect x="20" y="101" width="83.38" height="3" fill="#f1e05a" class="grow"/>
   <rect x="216" y="83" width="8" height="8" fill="#3178c6"/>
   <text x="232" y="92" class="label" style="fill:#e6f6ff">TypeScript</text>
-  <text x="392" y="92" class="label" text-anchor="end">33.6%</text>
+  <text x="392" y="92" class="label" text-anchor="end">33.4%</text>
   <rect x="216" y="101" width="176" height="3" fill="#1b1d2b"/>
-  <rect x="216" y="101" width="59.09" height="3" fill="#3178c6" class="grow"/>
+  <rect x="216" y="101" width="58.75" height="3" fill="#3178c6" class="grow"/>
   <rect x="20" y="127" width="8" height="8" fill="#e34c26"/>
   <text x="36" y="136" class="label" style="fill:#e6f6ff">HTML</text>
-  <text x="196" y="136" class="label" text-anchor="end">17.6%</text>
+  <text x="196" y="136" class="label" text-anchor="end">17.9%</text>
   <rect x="20" y="145" width="176" height="3" fill="#1b1d2b"/>
-  <rect x="20" y="145" width="30.99" height="3" fill="#e34c26" class="grow"/>
+  <rect x="20" y="145" width="31.56" height="3" fill="#e34c26" class="grow"/>
   <rect x="216" y="127" width="8" height="8" fill="#663399"/>
   <text x="232" y="136" class="label" style="fill:#e6f6ff">CSS</text>
   <text x="392" y="136" class="label" text-anchor="end">0.7%</text>
   <rect x="216" y="145" width="176" height="3" fill="#1b1d2b"/>
-  <rect x="216" y="145" width="1.27" height="3" fill="#663399" class="grow"/>
+  <rect x="216" y="145" width="1.26" height="3" fill="#663399" class="grow"/>
   <rect x="20" y="171" width="8" height="8" fill="#7355dd"/>
   <text x="36" y="180" class="label" style="fill:#e6f6ff">C#</text>
   <text x="196" y="180" class="label" text-anchor="end">0.3%</text>
@@ -58,6 +58,6 @@
   <text x="232" y="180" class="label" style="fill:#e6f6ff">MDX</text>
   <text x="392" y="180" class="label" text-anchor="end">0.3%</text>
   <rect x="216" y="189" width="176" height="3" fill="#1b1d2b"/>
-  <rect x="216" y="189" width="0.48" height="3" fill="#fcb32c" class="grow"/>
+  <rect x="216" y="189" width="0.47" height="3" fill="#fcb32c" class="grow"/>
   <text x="20" y="226" class="label">By code size · public repos</text>
 </svg>
