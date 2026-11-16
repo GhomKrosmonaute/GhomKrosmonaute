@@ -78,8 +78,8 @@ strategy games you play right in the browser.
 ### `> status --github`
 
 <p>
-  <img src="assets/stats.svg" alt="GitHub stats" width="49%"/>
-  <img src="assets/languages.svg" alt="Most used languages" width="49%"/>
+  <img src="https://ghom.fr/api/profile-cards/stats.svg" alt="GitHub stats" width="49%"/>
+  <img src="https://ghom.fr/api/profile-cards/languages.svg" alt="Most used languages" width="49%"/>
 </p>
 
 <details>
